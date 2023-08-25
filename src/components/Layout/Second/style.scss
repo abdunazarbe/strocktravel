@@ -1,0 +1,29 @@
+.second_img
+{
+    background: url("../../../assetss/images/secondbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@media only screen and (max-width:1024px)
+{
+    .logosimg
+    {
+        width: 100px !important;
+        height: 50px !important;
+    }
+
+}
+
+@media only screen and (max-width:560px){
+    .logosimg {
+        width: 65px !important;
+        height: 31px !important;
+    }
+}

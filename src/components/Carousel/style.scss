@@ -1,0 +1,22 @@
+.carousel
+{
+    background: url("../../assetss/images/div.bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+}
+
+@media only screen and (max-width: 560px) {
+    .mText {
+        width: 260px !important;
+        height: 60px !important;
+    }
+
+    .mBtn {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
